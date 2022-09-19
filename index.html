@@ -1,509 +1,282 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ankit Kumar</title>
-    <link rel = "icon" href = 
-    "https://cdn-icons-png.flaticon.com/512/6010/6010054.png" 
-            type = "image/x-icon">
-    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./assets/css/aos.css">
-    <link rel="stylesheet" href="./assets/css/line-awesome.min.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <title> Ankit Kumar| Portfolio </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+
 </head>
-
-<body data-bs-spy="scroll" data-bs-target=".navbar">
-
-    <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-        <div class="container flex-lg-column">
-            <a class="navbar-brand mx-lg-auto mb-lg-4" href="#">
-                <span class="h3 fw-bold d-block d-lg-none">Ankit Kumar</span>
-                <img src="./assets/images/person.jpg" class="d-none d-lg-block rounded-circle" alt="">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto flex-lg-column text-lg-center">
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="#home">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#services">Skills</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#work">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
-                    </li>
-                    <!-- <li class="nav-item">
-                        <a class="nav-link" href="#reviews">Reviews</a>
-                    </li> -->
-                    <li class="nav-item">
-                        <a class="nav-link" href="#blog">Blog</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-
-                </ul>
+<body>
+    
+    <div class="scroll-up-btn">
+        <i class="fas fa-angle-up"></i>
+    </div>
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="#">Ankit <span>Kumar</span></a></div>
+            <ul class="menu">
+                <li><a href="#home" class="menu-btn">Home</a></li>
+                <li><a href="#about" class="menu-btn">About</a></li>
+             
+                <li><a href="#skills" class="menu-btn">Skills</a></li>
+                <li><a href="#project" class="menu-btn">Projects</a></li>
+                <li><a href="#contact" class="menu-btn">Contact</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
             </div>
         </div>
     </nav>
-    <!-- //NAVBAR -->
 
-    <!-- CONTENT WRAPPER -->
-    <div id="content-wrapper">
-
-        <!-- HOME -->
-        <section id="home" class="full-height px-lg-5">
-
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-10">
-                        <h1 class="display-4 fw-bold" data-aos="fade-up">I'M A <span class="text-brand">MERN DEVELOPER</span> FROM NOIDA, Uttar Pradesh</h1>
-                        <p class="lead mt-2 mb-4" data-aos="fade-up" data-aos-delay="300">I'm Ankit Kumar, And I craft
-                            high-performing and delightful experiences tailored and conversion-focused</p>
-                        <div data-aos="fade-up" data-aos-delay="600">
-                            <a href="#work" class="btn btn-brand me-3">Explore My Work</a>
-                            <a href="#" class="link-custom">Call: (+91) 7003 640 898</a>
-                        </div>
-                    </div>
+    <!-- home section start -->
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text-1">Hi, My Name is</div>
+                <div class="text-2">Ankit Kumar</div>
+              
+                <div class="text-3">And I'm a <span class="typing"></span></div>
+                <a href="./images/Ankit_Kumar_Resume.pdf" target="_blank">Resume</a>
+            </div>
+        </div>
+        <div  class="circular--landscape"> <img id="photox" src="./images/photo.jpg" /> </div>
+    </section>
+ 
+    <!-- about section start -->
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">About me</h2>
+            <div class="about-content">
+                <div class="column left">
+                    <img src="./images/d.png" alt="ankit_img">
+                </div>
+                <div class="column right">
+                    <div class="text">I'm Ankit Kumar and I'm a <span class="typing-2"></span></div>
+                    <p>  A self-motivated individual with problem-solving capability. Seeking an opportunity that allows me to best utilize my skillset and experience within the role of Full Stack Developer. Proficiency in solving Data Structure and Algorithm Problems and developing projects in remote collaboration.</p>
+                    <!-- <a href="#">Download CV</a> -->
                 </div>
             </div>
+        </div>
+    </section>
 
-        </section>
-        <!-- //HOME -->
-
-        <!-- SERVICES -->
-        <section id="services" class="full-height px-lg-5">
-            <div class="container">
-
-                <div class="row pb-4" data-aos="fade-up">
-                    <div class="col-lg-8">
-                        <h6 class="text-brand">Skills</h6>
-                        <h1>Programming skills</h1>
+    <!-- services section start -->
+    <section class="services" id="services">
+        <div class="max-width">
+            <h2 class="title">My services</h2>
+            <div class="serv-content">
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-paint-brush"></i>
+                        <div class="text">Web Design</div>
+                        <p>Proficient in providing web designs.</p>
                     </div>
                 </div>
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-chart-line"></i>
+                        <div class="text">REST API</div>
+                        <p>Providing exceptional Rest API's.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-code"></i>
+                        <div class="text">System Design</div>
+                        <p>Proficient in Low Level System Designs</p>
+                    </div>
+                </div>
+               </div>
+            </div>
+        </div>
+    </section>
 
-                <div class="row gy-4">
+    <!-- skills section start -->
+    <section class="skills" id="skills">
+        <div class="max-width">
+            <h2 class="title">My skills</h2>
+            <div class="skills-content">
+                <div class="column left">
 
-                    <div class="col-md-4" data-aos="fade-up">
-                        <div class="service p-4 bg-base rounded-4 shadow-effect">
-                            <div class="iconbox rounded-4">
-                                <i class="las la-feather"></i>
-                            </div>
-                            <h5 class="mt-4 mb-2">Front-end</h5>
-                            <p>  
-                                <a href="#" class="link-custom">HTML5</a> ,
-                                <a href="#" class="link-custom">CSS3</a> ,
-                                <a href="#" class="link-custom">Sass</a> ,
-                                <a href="#" class="link-custom">JavaScript</a> ,
-                                <a href="#" class="link-custom">BootStrap</a> ,
-                                <a href="#" class="link-custom">React</a> ,
-                                <a href="#" class="link-custom">Angular</a> ,
-                            </p>
-                        </div>
+                    <div class="skills-images">
+                        <img src="https://play-lh.googleusercontent.com/85WnuKkqDY4gf6tndeL4_Ng5vgRk7PTfmpI4vHMIosyq6XQ7ZGDXNtYG2s0b09kJMw" alt="">
                     </div>
 
-                    <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
-                        <div class="service p-4 bg-base rounded-4 shadow-effect">
-                            <div class="iconbox rounded-4">
-                                <i class="las la-pencil-ruler"></i>
-                            </div>
-                            <h5 class="mt-4 mb-2">Back-end</h5>
-                            <p>  
-                                <a href="#" class="link-custom">JAVA</a> ,
-                                <a href="#" class="link-custom">SPRING</a> ,
-                                <a href="#" class="link-custom">NODE.JS</a> ,
-                                <a href="#" class="link-custom">MongoDB</a> ,
-                                <a href="#" class="link-custom">Express.js</a> ,
-                                <a href="#" class="link-custom">Flask</a> ,
-                                <a href="#" class="link-custom">SQL</a>
-                            </p>
-                        </div>
+                    <div class="skills-images">
+                        <img src="data:image/jpeg;base64,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" alt="">
                     </div>
 
+                    
+                    <div class="skills-images">
+                        <img src="https://www.freepnglogos.com/uploads/javascript-png/png-javascript-badge-picture-8.png" alt="">
+                    </div>
 
-                    <div class="col-md-4" data-aos="fade-up" data-aos-delay="600">
-                        <div class="service p-4 bg-base rounded-4 shadow-effect">
-                            <div class="iconbox rounded-4">
-                                <i class="las la-cloud"></i>
-                            </div>
-                            <h5 class="mt-4 mb-2">Cloud computing</h5>
-                            <p>  
-                                <a href="#" class="link-custom">Amazon Web Services (AWS)</a> ,
-                                <br><br>
-                            </p>
-                        </div>
+                    
+                    <div class="skills-images">
+                        <img src="./images/github.svg" alt="">
+                    </div>
+
+                </div>
+                <div class="column right">
+                    <div class="skills-images">
+                        <img src="data:image/png;base64,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" alt="">
+                    </div>
+
+                    <div class="skills-images">
+                        <img src="https://raw.githubusercontent.com/SaulMoro/ngrx-rtk-query/c32409123d7cdcf5fbef552bf25dae8ef0f4605f/logo.svg" alt="">
+                    </div>
+
+                    <div class="skills-images">
+                        <img src="https://servicenav.coservit.com/wp-content/uploads/2022/05/18-1.jpg" alt="">
+                    </div>
+
+                    <div class="skills-images">
+                        <img src="data:image/png;base64,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" alt="">
                     </div>
 
                 </div>
             </div>
-        </section>
-        <!-- SERVICES -->
+        </div>
+    </section>
 
-        <!-- WORK -->
-        <section id="work" class="full-height px-lg-5">
-            <div class="container">
-
-                <div class="row pb-4" data-aos="fade-up">
-                    <div class="col-lg-8">
-                        <h6 class="text-brand">Projects</h6>
-                        <h1>My Recent Projects</h1>
+    <!-- project section start -->
+    <section class="project" id="project">
+        <div class="max-width">
+            <h2 class="title">Projects</h2>
+            <div class="carousel owl-carousel">
+                <div class="card">
+                    <div class="box">
+                        <img src="./images/Screenshot (492).png" alt="Myntra_png">
+                        <div class="text">Banggood</div>
+                        <p>Its an e-commerce Website Clone Like Original Website</p>
+                        <p class="techStack">Tech Used: Html, CSS, JavaScript</p>
+                        <div class="repo-links">
+                            <div class="repo-div">
+                                <span>  <a href="https://github.com/VijaySingh8650/Banggood-Website" target="_blank"> Git Repo </a></span>
+                            </div>
+                            <div class="demo-div">
+                                <span> <a href="https://superlative-cupcake-f4c337.netlify.app/" target="_blank">  Live Site  </a></span>
+                            </div>
+                        </div>
                     </div>
                 </div>
-
-                <div class="row gy-4">
-
-                    <div class="col-md-6" data-aos="fade-up">
-                        <div class="card-custom rounded-4 bg-base shadow-effect">
-                            <div class="card-custom-image rounded-4">
-                                <img class="rounded-4" src="./assets/images/project-1.jpg" alt="">
+                <div class="card">
+                    <div class="box">
+                        <img src="./images/Screenshot (490).png" alt="">
+                        <div class="text">Lumen 5</div>
+                        <p>It is an online Video Creating Website </p>
+                        <p class="techStack">Tech Used: Html, CSS, JavaScript</p>
+                        <div class="repo-links">
+                            <div class="repo-div">
+                                <span>  <a href="https://github.com/masai-course/Ankit_fw18_0213/tree/master/unit-4/sprint-4/optional" target="_blank"> Git Repo </a></span>
                             </div>
-                            <div class="card-custom-content p-4">
-                                <h4>Startup Landing Page</h4>
-                                <p>Innovation that exceeds expectations. Astra is a true template equiqed with all the elements you could ever need to put together</p>
-                                <a href="https://dazzling-paprenjak-91b876.netlify.app/ "  class="link-custom" target="_blank">Go Live</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
-                        <div class="card-custom rounded-4 bg-base shadow-effect">
-                            <div class="card-custom-image rounded-4">
-                                <img class="rounded-4" src="./assets/images/project-2.png" alt="">
-                            </div>
-                            <div class="card-custom-content p-4">
-                                <h4>Startup Landing Page</h4>
-                                <p>Innovation that exceeds expectations. Astra is a true template equiqed with all the elements you could ever need to put together</p>
-                                <a href="https://coruscating-basbousa-672c23.netlify.app/" class="link-custom" target="_blank">Go Live</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6" data-aos="fade-up">
-                        <div class="card-custom rounded-4 bg-base shadow-effect">
-                            <div class="card-custom-image rounded-4">
-                                <img class="rounded-4" src="./assets/images/project-3.jpg" alt="">
-                            </div>
-                            <div class="card-custom-content p-4">
-                                <h4>Startup Landing Page</h4>
-                                <p>Innovation that exceeds expectations. Astra is a true template equiqed with all the elements you could ever need to put together</p>
-                                <a href="https://04psm.github.io/solar-system/" class="link-custom" target="_blank">Go Live</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
-                        <div class="card-custom rounded-4 bg-base shadow-effect">
-                            <div class="card-custom-image rounded-4">
-                                <img class="rounded-4" src="./assets/images/project-4.png" alt="">
-                            </div>
-                            <div class="card-custom-content p-4">
-                                <h4>Startup Landing Page</h4>
-                                <p>Innovation that exceeds expectations. Astra is a true template equiqed with all the elements you could ever need  to put</p>
-                                <a href="https://04psm.github.io/mini-music-player/" class="link-custom" target="_blank">Go Live</a>
+                            <div class="demo-div">
+                                <span> <a href="https://630b253b0a0b95210b267c7c--beautiful-gecko-2b7f94.netlify.app/" target="_blank">  Live Site  </a></span>
                             </div>
                         </div>
                     </div>
                 </div>
 
-            </div>
-        </section>
-        <!-- //WORK -->
 
-        <!-- ABOUT -->
-        <section id="about" class="full-height px-lg-5">
-            <div class="container">
-
-                <div class="row pb-4" data-aos="fade-up">
-                    <div class="col-lg-8">
-                        <h6 class="text-brand">ABOUT</h6>
-                        <h1>My Education & Experiance</h1>
+                <div class="card">
+                    <div class="box">
+                        <img src="./images/print.png" alt="">
+                        <div class="text">Smart Print Software</div>
+                        <p>It is Windows Application which Allow to User to Print Smart Cards</p>
+                        <p class="techStack">Tech Used: C#, Firebase, PDF SDK </p>
+                        <div class="repo-links">
+                            <div class="repo-div">
+                                <span>  <a href="" target="_blank"> Git Repo </a></span>
+                            </div>
+                            <div class="demo-div">
+                                <span> <a href="https://drive.google.com/drive/folders/1xFYDHiVNS9ZIsSY9rcVOcuzjSXpw6uNu?usp=sharing" target="_blank">  Live Site  </a></span>
+                            </div>
+                        </div>
                     </div>
                 </div>
+    
+    </section>
 
-                <div class="row gy-5">
-                    <div class="col-lg-6">
-
-                        <h3 class="mb-4" data-aos="fade-up" data-aos-delay="300">Education</h3>
-                        <div class="row gy-4">
-
-                            <div class="col-12" data-aos="fade-up" data-aos-delay="600">
-                                <div class="bg-base p-4 rounded-4 shadow-effect">
-                                    <h4>Bachelors of Technology in Computer Science &
-                                        Engineering</h4>
-                                    <p class="text-brand mb-2">Maulana Abul Kalam Azad University of Technology</p>
-                                    <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus cum, repellat fugiat ratione esse possimus doloribus unde error? Ab non soluta ducimus, dicta cupiditate similique molestiae dolorem ea expedita autem.</p>
-                                </div>
+    <!-- contact section start -->
+    <section class="contact" id="contact">
+        <div class="max-width">
+            <h2 class="title">Contact me</h2>
+            <div class="contact-content">
+                <div class="column left">
+                    <div class="text">Get in Touch</div>
+                    <p>Got a project? Reach out and let's work together on something exciting. Big or small. Mobile or web.</p>
+                    <div class="icons">
+                        <div class="row">
+                            <a href=" mailto:ankitraj251111@gmail.com">   <i class="fas fa-envelope"></i> </a>
+                            <div class="info">
+                                <div class="head"></div>
+                                <div class="sub-title">  <a href=" mailto:ankitraj251111@gmail.com"> ankitraj251111@gmail.com </a> </div>
                             </div>
-
-                            <div class="col-12" data-aos="fade-up" data-aos-delay="600">
-                                <div class="bg-base p-4 rounded-4 shadow-effect">
-                                    <h4>W.B (Class XII)</h4>
-                                    <p class="text-brand mb-2">Purba Barasat Adarsha Vidyapith School</p>
-                                    <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus cum, repellat fugiat ratione esse possimus doloribus unde error? Ab non soluta ducimus, dicta cupiditate similique molestiae dolorem ea expedita autem.</p>
-                                </div>
+                        </div>
+                        <div class="row">
+                             <a href="https://www.linkedin.com/in/ankitlpu" target="_blank"> <i class="fab fa-linkedin"></i> </a>
+                            <div class="info">
+                                <!-- <div class="head">Address</div> -->
+                                <div class="sub-title">  <a href="https://www.linkedin.com/in/ankitlpu/" target="_blank">Linkedin</a> </div>
                             </div>
-
-                            <div class="col-12" data-aos="fade-up" data-aos-delay="600">
-                                <div class="bg-base p-4 rounded-4 shadow-effect">
-                                    <h4>W.B (Class X)</h4>
-                                    <p class="text-brand mb-2">Bishnupur Sir Ramesh Institution School</p>
-                                    <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus cum, repellat fugiat ratione esse possimus doloribus unde error? Ab non soluta ducimus, dicta cupiditate similique molestiae dolorem ea expedita autem.</p>
-                                </div>
+                        </div>
+                        <div class="row">
+                             <a href="https://github.com/httpsankit" target="_blank"> <i class="fab fa-github"></i> </a>
+                            <div class="info">
+                                <!-- <div class="head">Email</div> -->
+                                <div class="sub-title"> <a href="https://github.com/httpsankit" target="_blank" >GitHub</a> </div>
                             </div>
-
                         </div>
 
-                    </div>
-<!-- Experiance -->
-                    <div class="col-lg-6">
+                        <div class="row">
+                            <!-- <a href="" target="_blank"> <i class="fa-brands fa-blogger-b"></i> </a> -->
+                           <div class="info">
+                               <!-- <div class="head">Email</div> -->
+                               <!-- <div class="sub-title"> <a href="" target="_blank" >Blogger</a> </div> -->
+                           </div>
+                       </div>
 
-                        <h3 class="mb-4" data-aos="fade-up" data-aos-delay="300">Experiance</h3>
-                        <div class="row gy-4">
-
-                            <div class="col-12" data-aos="fade-up" data-aos-delay="600">
-                                <div class="bg-base p-4 rounded-4 shadow-effect">
-                                    <h4>Web Development Intern</h4>
-                                    <p class="text-brand mb-2">Mywbut.com</p>
-                                    <p class="mb-0">All we are more and design lorem ipsum dolor creativity sit amet consectetur adipisicing elit</p>
-                                </div>
-                            </div>
-
-                            <!-- <div class="col-12" data-aos="fade-up" data-aos-delay="600">
-                                <div class="bg-base p-4 rounded-4 shadow-effect">
-                                    <h4>Web Development Intern</h4>
-                                    <p class="text-brand mb-2">Mywbut.com</p>
-                                    <p class="mb-0">All we are more and design lorem ipsum dolor creativity sit amet consectetur adipisicing elit</p>
-                                </div>
-                            </div>
-
-                            <div class="col-12" data-aos="fade-up" data-aos-delay="600">
-                                <div class="bg-base p-4 rounded-4 shadow-effect">
-                                    <h4>Applications developer</h4>
-                                    <p class="text-brand mb-2">Twitter (2018 - 2020)</p>
-                                    <p class="mb-0">All we are more and design lorem ipsum dolor creativity sit amet consectetur adipisicing elit</p>
-                                </div>
-                            </div> -->
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-        </section>
-        <!-- //ABOUT -->
-
-        <!-- REVIEWS -->
-        <!-- <section id="reviews" class="full-height px-lg-5">
-            <div class="container">
-
-                <div class="row pb-4" data-aos="fade-up">
-                    <div class="col-lg-8">
-                        <h6 class="text-brand">REVIEWS</h6>
-                        <h1>What our subscribers say</h1>
                     </div>
                 </div>
-
-                <div class="row gy-4">
-
-                    <div class="col-md-4" data-aos="fade-up">
-
-                        <div class="review shadow-effect bg-base p-4 rounded-4">
-                            <div class="text-brand h5">
-                                <i class="las la-star"></i>
-                                <i class="las la-star"></i>
-                                <i class="las la-star"></i>
-                                <i class="las la-star"></i>
-                                <i class="las la-star"></i>
+                <div class="column right">
+                    <div class="text">Message me</div>
+                    <form action="#">
+                        <div class="fields">
+                            <div class="field name">
+                                <input type="text" placeholder="Name" required>
                             </div>
-                            <p class="my-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel quae facilis fugiat molestias ab illum excepturi, qui optio modi asperiores, delectus maiores!</p>
-                            <div class="person">
-                                <h5 class="mb-0">Jon Doe</h5>
-                                <p class="mb-0">Twitter</p>
+                            <div class="field email">
+                                <input type="email" placeholder="Email" required>
                             </div>
                         </div>
-
-                    </div>
-
-                    <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
-
-                        <div class="review shadow-effect bg-base p-4 rounded-4">
-                            <div class="text-brand h5">
-                                <i class="las la-star"></i>
-                                <i class="las la-star"></i>
-                                <i class="las la-star"></i>
-                                <i class="las la-star"></i>
-                                <i class="las la-star"></i>
-                            </div>
-                            <p class="my-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel quae facilis fugiat molestias ab illum excepturi, qui optio modi asperiores, delectus maiores!</p>
-                            <div class="person">
-                                <h5 class="mb-0">Jon Doe</h5>
-                                <p class="mb-0">Twitter</p>
-                            </div>
+                        <div class="field">
+                            <input type="text" placeholder="Subject" required>
                         </div>
-
-                    </div>
-
-                    <div class="col-md-4" data-aos="fade-up" data-aos-delay="600">
-
-                        <div class="review shadow-effect bg-base p-4 rounded-4">
-                            <div class="text-brand h5">
-                                <i class="las la-star"></i>
-                                <i class="las la-star"></i>
-                                <i class="las la-star"></i>
-                                <i class="las la-star"></i>
-                                <i class="las la-star"></i>
-                            </div>
-                            <p class="my-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel quae facilis fugiat molestias ab illum excepturi, qui optio modi asperiores, delectus maiores!</p>
-                            <div class="person">
-                                <h5 class="mb-0">Jon Doe</h5>
-                                <p class="mb-0">Twitter</p>
-                            </div>
+                        <div class="field textarea">
+                            <textarea cols="30" rows="10" placeholder="Message.." required></textarea>
                         </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-        </section> -->
-        <!-- //REVIEWS -->
-
-        <!-- BLOG -->
-        <section id="blog" class="full-height px-lg-5">
-            <div class="container">
-
-                <div class="row pb-4" data-aos="fade-up">
-                    <div class="col-lg-8">
-                        <h6 class="text-brand">BLOG</h6>
-                        <h1>My BLog Posts</h1>
-                    </div>
-                </div>
-
-                <div class="row gy-4">
-
-                    <div class="col-md-4" data-aos="fade-up">
-                        <div class="card-custom rounded-4 bg-base shadow-effect">
-                            <div class="card-custom-image rounded-4">
-                                <img class="rounded-4" src="./assets/images/blog-post-1.jpg" alt="">
-                            </div>
-                            <div class="card-custom-content p-4">
-                                <p class="text-brand mb-2">20 Dec, 2022</p>
-                                <h5 class="mb-4">The Modern JavaScript tricks 2022 </h5>
-                                <a href="https://medium.com/@parthasarathimanna2015/modern-javascript-bcfdce5b643a" class="link-custom">Read More</a>
-                            </div>
+                        <div class="button-area">
+                            <button type="submit">Send message</button>
                         </div>
-                    </div>
-
-                    <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
-                        <div class="card-custom rounded-4 bg-base shadow-effect">
-                            <div class="card-custom-image rounded-4">
-                                <img class="rounded-4" src="./assets/images/blog-post-2.jpg" alt="">
-                            </div>
-                            <div class="card-custom-content p-4">
-                                <p class="text-brand mb-2">20 Dec, 2022</p>
-                                <h5 class="mb-4">Points from Google’s JavaScript</h5>
-                                <a href="https://medium.com/@parthasarathimanna2015/points-from-googles-javascript-style-guide-1dc5c1271bc1" class="link-custom">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4" data-aos="fade-up" data-aos-delay="600">
-                        <div class="card-custom rounded-4 bg-base shadow-effect">
-                            <div class="card-custom-image rounded-4">
-                                <img class="rounded-4" src="./assets/images/blog-post-3.jpg" alt="">
-                            </div>
-                            <div class="card-custom-content p-4">
-                                <p class="text-brand mb-2">20 Dec, 2022</p>
-                                <h5 class="mb-4">Secure a Spring Boot REST API </h5>
-                                <a href="https://medium.com/@parthasarathimanna2015/secure-a-spring-boot-rest-api-with-json-437055e093fa" class="link-custom">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-        </section>
-        <!-- //BLOG -->
-
-        <!-- CONTACT -->
-        <section id="contact" class="full-height px-lg-5">
-            <div class="container">
-
-                <div class="row justify-content-center text-center">
-                    <div class="col-lg-8 pb-4" data-aos="fade-up">
-                        <h6 class="text-brand">CONTACT</h6>
-                        <h1>Interested in working together? Let's talk
-                        </h1>
-                    </div>
-
-                    <div class="col-lg-8" data-aos="fade-up" data-aos-delay="300">
-                        <form action="#" class="row g-lg-3 gy-3">
-                            <div class="form-group col-md-6">
-                                <input type="text" class="form-control" placeholder="Enter your name">
-                            </div>
-                            <div class="form-group col-md-6">
-                                <input type="email" class="form-control" placeholder="Enter your email">
-                            </div>
-                            <div class="form-group col-12">
-                                <input type="text" class="form-control" placeholder="Enter subject">
-                            </div>
-                            <div class="form-group col-12">
-                                <textarea name="" rows="4" class="form-control" placeholder="Enter your message"></textarea>
-                            </div>
-                            <div class="form-group col-12 d-grid">
-                                <button type="submit" class="btn btn-brand">Contact me</button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-
-
-            </div>
-        </section>
-        <!-- //CONTACT -->
-
-        <!-- FOOTER -->
-        <footer class="py-5 px-lg-5">
-            <div class="container">
-                <div class="row gy-4 justify-content-between">
-                    <div class="col-auto">
-                        <p class="mb-0">Designed by <a href="#" class="fw-bold">Partha Sarathi Manna</a></p>
-                    </div>
-                    <div class="col-auto">
-                        <div class="social-icons">
-                            <a href="#"><i class="lab la-twitter"></i></a>
-                            <a href="#"><i class="lab la-instagram"></i></a>
-                            <a href="#"><i class="lab la-dribbble"></i></a>
-                            <a href="#"><i class="lab la-github"></i></a>
-                        </div>
-                    </div>
+                    </form>
                 </div>
             </div>
-        </footer>
-        <!-- //FOOTER -->
+        </div>
+    </section>
 
-    </div>
-    <!-- //CONTENT WRAPPER -->
+    <!-- footer section start -->
+    <footer>
+        <span class="far fa-copyright"></span>2022 All Rights Reserved, Made by
+        Ankit Kumar.
+</span>
+    </footer>
 
-
-
-    <script src="./assets/js/bootstrap.bundle.min.js"></script>
-    <script src="./assets/js/aos.js"></script>
-    <script src="./assets/js/main.js"></script>
+    <script src="script.js"></script>
 </body>
-
 </html>
