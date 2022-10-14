@@ -6,6 +6,7 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
+  font-family: "Ubuntu", sans-serif;
 }
 #photox{
   /* border: 1px solid red; */
@@ -790,4 +791,71 @@ footer span a:hover {
     font-size: 23px;
     line-height: 38px;
   }
+}
+
+
+
+
+
+
+
+
+.STATISTICS{
+  text-align: center;
+  /* border: 1px solid red ; */
+  font-size: 30px;
+  margin-top: 10%;
+  font-weight: 600;
+  color: #000000;
+  margin-bottom: 5%;
+}
+.txtc{
+  color: tomato;
+
+  
+}
+.Circular_bar{
+  width: 90%;
+/* border: 1px solid green ; */
+  display: grid;
+  height: auto;
+  grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+  grid-gap:30px;
+  grid-auto-rows: minmax(100px,auto);
+  grid-auto-columns: minmax(50px , auto);
+  /* border: 1px solid red ; */
+
+  margin-bottom: 10%;
+}
+.Circular_bar > div{
+  border: 10px solid tomato ;
+  /* width: 18%; */
+  font-weight: 600;
+  height: 200px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.githubdemo{
+ 
+  /* border: 1px solid green; */
+  
+
+
+
+  /* background: url("https://www.pixelstalk.net/wp-content/uploads/2016/10/Black-3D-Images.jpg") no-repeat center; */
+  /* background-color: #111; */
+  /* height: 100vh; */
+  color: #fff;
+  /* min-height: 500px; */
+  /* background-size: cover; */
+  background-attachment: fixed;
+  font-family: "Ubuntu", sans-serif;
+  background: url("./images/5295526.jpg") no-repeat center;
+
+
 }
